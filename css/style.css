@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+a {
+    color: #5b67bd;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+::-webkit-scrollbar {display:none;}
+
+.list-group-item.active {
+    background-color: #636363;
+    border-color: #636363;
+}
+
+.span {
+    width: 100%;
+}
+
+.side-panel {
+    padding-left: 0;
+}
+
+.list-wrapper {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.list-content {
+    height: 90px;
+    overflow-x: auto;
+}
+
+.gantt-chart {
+    height: 60px;
+    display: inline-block;
+    width: 60px;
+}
+
+.gantt-chart button {
+    border-radius: 0;
+    width: 60px;
+}
+
+.gantt-chart .left {
+    float: left;
+}
+
+.gantt-chart .right {
+    float: right;
+}
+
+.computation {
+    margin: 0 100px;
+}
